@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>This Is Vietnam</title>
+<meta charset="utf-8">
+    <img class="floatleft" src="logo.png"
+         alt="Logo of This Is Vietnam"
+         width="150" height="150 ">
+    <style>
+        .floatleft { float: left; }
+        .floatright { float: right; }
+        .clearleft { clear: left; }
+        .clearright { clear: right;}
+        body { font-family: Verdana;}
+        h1 { color: darkred; } 
+        h2 { color: darkgoldenrod;
+             text-indent: 40px; } 
+        ul { list-style-type: none; }
+        nav a { text-decoration: none;}
+        nav li { display: inline; 
+                 padding-right: 75px; }
+        .space { padding-top: 50px;
+                 text-align: center; }
+        .header { text-align: center;}
+        .des {padding: 0 250px 0 250px;}
+        .indentleft { padding-left: 350px;
+                   text-indent: 30px;}
+        .indentright { padding-right: 350px; 
+                       text-indent: 20px;}
+        p { line-height: 200%; }
+        nav a { color: darkred; }
+        #container {padding: 2em;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%; min-width: 500px; } 
+        footer { text-align: center;}
+        table,th,td { border: 1px solid black;
+                border-collapse: collapse;
+         }
+        
+        
+    </style>
+</head>
+    
+<body id="container"> 
+    
+<nav class="space" >
+    <ul><b>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="places.html">Places to Go</a></li>
+        <li><a href="things.html">Things to Do</a></li>
+        <li><a href="survey.html">Survey</a></li></b>
+        <hr class="clearleft">
+    </ul>
+    </nav>
+    
+<header class="header">
+    <h1>Survey</h1> </header>
+    
+     <form action="survey.cgi" method="get">
+      <p>1. Please enter your name: 
+             <input type="text" name="UserName" size=40 maxlength=50 value=""><br><br>
+                                                                                  
+         2. Please enter your email address: 
+             <input type="text" name="UserEmail" size=40 maxlength=50 value=""><br><br>
+          
+         3. Have you ever visited Vietnam?
+           <input type="checkbox" name="VisitYes">Yes
+           <input type="checkbox" name="VisitNo">No <br><br>
+          
+         4. If yes, what did you enjoy the most during your stay in Vietnam?
+          <input type="text" name="MostEnjoy" size=40 maxlength=50 value=""><br><br>
+          
+         5. What do you think when Vietnam is mentioned?
+          <input type="text" name="MostFamous" size=40 maxlength=50 value=""><br><br>
+          
+         6. If possible, would you change anything? 
+          <input type="text" name="Change" size=40 maxlength=50 value=""><br><br>
+          
+         7. How likely would you visit these places?
+         </p>
+         
+         
+   
+<table style="width:100%">
+    <tr> 
+    <th></th>
+    <th>Likely</th>
+    <th>Neutral</th>
+    <th>Not Likely</th></tr>
+    
+  <tr>
+    <td>Northern </td>
+    <th> <input type="checkbox" name="northernLikely"> </th>
+    <th> <input type="checkbox" name="northernNeutral"> </th>
+    <th> <input type="checkbox" name="northernNotLikely"> </th>
+  </tr>
+    
+  <tr>
+    <td>Central</td>
+    <th> <input type="checkbox" name="CentralLikely"> </th>
+    <th> <input type="checkbox" name="CentralNeutral"> </th>
+    <th> <input type="checkbox" name="CentralNotLikely"> </th>
+  </tr>
+    
+  <tr>
+    <td>Southern</td>
+    <th> <input type="checkbox" name="SouthernlLikely"> </th>
+    <th> <input type="checkbox" name="SouthernNeutral"> </th>
+    <th> <input type="checkbox" name="SouthernNotLikely"> </th>
+  </tr>
+</table><br><br>
+         
+  <input type="submit" value="Submit">
+    </form>
+     
+    </body>
+    
+  <footer><br><hr>
+      <small>Contact Us by <a href=mailto:ngocdiep240802@gmail.com>e-mail</a> or at <a href=callto:5613344874>561-334-4874</a><br>
+      &copy;2020 Official Website This Is Vietnam</small> <br> 
+  </footer>
